@@ -1,5 +1,11 @@
-#We have to make two digit input taking code that will do sum between them and show the sum.
+# Do not change these lines
+two_digit_number = input("Type a two digit number: ")
+# two_digit_number will be something like "35"
 
-num_take = (input("Enter a two digit number: "))
-print("The sum of two numbers: "[0] + [1], num_take)
-#the rest of the data will be updated tomorrow
+# Write your code below this line 👇
+
+first_digit = int(two_digit_number[0])
+second_digit = int(two_digit_number[1])
+
+digit_sum = first_digit + second_digit
+print(digit_sum)
