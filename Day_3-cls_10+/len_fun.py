@@ -4,6 +4,7 @@ length = len(name)
 print(length)
 
 # replacing one variable data with another.
+
 a = input("a=")
 b = input("b=")
 c = a
