@@ -1,5 +1,5 @@
 # count from 1 to 5
-i = 1
-while i <= 100:
-    print(i)
-    i += 1
+j = 1
+while j <= 100:
+    print(j)
+    j += 1
